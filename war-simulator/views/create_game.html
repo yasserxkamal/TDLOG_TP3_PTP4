@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="styles/style.css">
+<script src="scripts/create-game.js"></script>
+<div id="menu">
+    <a href="home.html">Home</a>
+    <a href = "play_game.html">Play game</a>
+    <a href = "create_game.html">Create game</a>
+    <a href = "join_game.html">Join game</a>
+    <a href = "manage_fleet.html">Manage fleet</a>
+</div>
+<div class="vertical-container">
+    <div class="form-result" id="create-game-result"></div>
+    <div class="centered-form">
+        <form id="create-game-form">
+
+            <div class="container">
+                <label for="player-name">Ton pseudo:</label><br>
+                <input type="text" id="player-name" name="player_name" required><br><br>
+            </div>
+            <div class="container">
+                <h5>Les dimensions de l'espace de jeu</h5>
+            </div>
+            <div class="container">
+                <label for="min-x">Xmin:</label><br>
+                <input type="number" id="min-x" name="min_x" required value="0"><br>
+            </div>
+            <div class="container">
+                <label for="max-x">Xmax:</label><br>
+                <input type="number" id="max-x" name="max_x" required value="40"><br>
+            </div>
+            <div class="container">
+                <label for="min-y">Ymin:</label><br>
+                <input type="number" id="min-y" name="min_y" required value="0"><br>
+            </div>
+            <div class="container">
+                <label for="max-y">Ymax:</label><br>
+                <input type="number" id="max-y" name="max_y" required value="40"><br>
+            </div>
+            <div class="container">
+                <label for="min-z">Zmin:</label><br>
+                <input type="number" id="min-z" name="min_z" required value="-1"><br>
+            </div>
+            <div class="container">
+                <label for="max-z">Zmax:</label><br>
+                <input type="number" id="max-z" name="max_z" required value="1"><br><br>
+            </div>
+            <div class="container">
+                <input  class="submit-button" type="submit" value="Valider">
+            </div>
+        </form>
+    </div>
+</div>

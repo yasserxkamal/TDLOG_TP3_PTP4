@@ -1,0 +1,82 @@
+<link rel="stylesheet" href="styles/style.css">
+<script src="scripts/create-game.js"></script>
+<div id="menu">
+    <a href="home.html">Home</a>
+    <a href = "play_game.html">Play game</a>
+    <a href = "create_game.html">Create game</a>
+    <a href = "join_game.html">Join game</a>
+    <a href = "manage_fleet.html">Manage fleet</a>
+</div>
+<div class="vertical-container">
+    <div class="form-result" id="create-game-result"></div>
+    <div class="centered-form">
+        <form id="create-game-form">
+            <div class="container">
+                <label for="pseudo">Ton pseudo:</label><br>
+                <input type="text" id="pseudo" name="pseudo" required><br><br>
+            </div>
+            <div class="container">
+                <label for="identifiant">L'identifiant de la partie</label><br>
+                <input type="number" id="identifiant" name="identifiant" required ><br>
+            </div>
+            <div class="container">
+                <input  class="submit-button" type="submit" value="Changer ma flotte">
+            </div>
+        </form>
+        <br>
+        <form id="create-game-form"></form>
+
+
+            <div class="container">
+                <label for="type">Choisir le type de vaisseau</label><br>
+                <select  id="type" name= required >
+                    <option value="Cruiser">Cruiser</option>
+                    <option value="Destroyer">Destroyer</option>
+                    <option value="Frigate">Frigate</option>
+                    <option value="Submarine">Submarine</option>
+                </select>
+                <br>
+            </div>
+            <div class="container">
+                <label for="X">X:</label><br>
+                <input type="number" id="X" name="X" required value="0"><br>
+            </div>
+            <div class="container">
+                <label for="Y">Y:</label><br>
+                <input type="number" id="Y" name="Y" required value="0"><br>
+            </div>
+            <div class="container">
+                <label for="Z">Z:</label><br>
+                <input type="number" id="Z" name="Z" required value="0"><br>
+            </div>
+
+            <div class="container">
+                <input  class="submit-button" type="submit" value="Valider">
+            </div>
+        </form>
+        <br>
+        <div class="containerr">
+            <table>
+                <tr>
+                    <th>
+                        Vessel
+                    </th>
+                    <th>
+                        Coordonnées
+                    </th>
+                    <th>
+                        Résistance
+                    </th>
+                    <th>
+                        Arme
+                    </th>
+                    <th>
+                        Munitions
+                    </th>
+                    <th>
+                        Rayon d'action
+                    </th>
+                </tr>
+            </tab>
+    </div>
+</div>
